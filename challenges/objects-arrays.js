@@ -6,6 +6,19 @@
   object name, diet, weight, length, period
 */
 
+class Dinosaur {
+  constructor(attributes) {
+    this.name = attributes.name;
+    this.diet = attributes.diet;
+    this.weight = attributes.weight;
+    this.length = attributes.length;
+    this.period = attributes.period;
+  }
+  roar() {
+    return "RAWERSRARARWERSARARARRRR!";
+  }
+}
+
 // tyrannosaurus, carnivorous, 7000kg, 12m, Late Cretaceious
 
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
